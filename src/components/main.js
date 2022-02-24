@@ -24,12 +24,13 @@ class Main extends React.Component {
 
         <About article={this.props.article} articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}/>
 
-        <Page page_name="contact" article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}>
+        <Page class="contact" page_name="contact" article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}>
             <h2 className="major">Contact</h2>
-            <p>
-              feel free to use the contact form, email me directly at <a href="mailto:mali18@ku.edu.tr">mali18@ku.edu.tr</a>
+            <p  style={{'line-hight':'1rem', 'margin-bottom':'0rem'}}> Do not hesitate to reach out if you have full-time positions, internship opportunities, or just want a simple chat.</p>
+            <p style={{'margin-bottom':'2.5rem'}}>
+              Feel free to contact me via the form below or at <a href="mailto:mali18@ku.edu.tr">mali18@ku.edu.tr</a>
             </p>
-            <form method="post" action="#">
+            <form target="transFrame" method="post" action='https://formspree.io/f/mgedkjno'>
                 <div className="field half first">
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" />
@@ -43,11 +44,10 @@ class Main extends React.Component {
                 <textarea name="message" id="message" rows="4"></textarea>
                 </div>
                 <ul className="actions">
-                <li><input type="submit" value="Send Message" className="special" /></li>
+                <li><input type="submit" value="Send Message" className="special"/></li>
                 <li><input type="reset" value="Reset" /></li>
                 </ul>
             </form>
-            <p> Please reach out if you have any research internship opportunities. You are also welcomed to reach out if you have any question or just want a simple chat.</p>
             <Social/>
         </Page>
 

@@ -1,5 +1,11 @@
 .about {
 
+  font-size: 1.1rem;
+  a {
+    font-weight: _font(weight-bold);
+    color : $secondary_color;
+  }
+
   h3{
     color: _palette(fg-bold);
     

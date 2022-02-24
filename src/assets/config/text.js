@@ -24,22 +24,21 @@ export const news = [
     title: "Participating at HashCode 2022",
     date: "February 2022",
     description: [
-      "I am very excited to particpate in HashCode 2022. The qualifacation round starts on February 24th"
+      "I am very excited to participate in <a href:'https://codingcompetitions.withgoogle.com/hashcode/'>HashCode 2022</a>. The qualification round starts on February 24th"
     ]
   },
   {
     title: "Teaching assistant at COMP 547 Deep Unsupervised Learning",
     date: "February 2022",
     description: [
-      "I will be joining as an undergraduate teaching assitant of <a href='https://aykuterdem.github.io/classes/comp547/'> COMP 547 Deep Unsupervised Learning </a> for spring 2022."
+      "I joined as an undergraduate teaching assistant of <a href='https://aykuterdem.github.io/classes/comp547/'> COMP 547 Deep Unsupervised Learning </a> for spring 2022."
     ]
   },
   {
-    title: "Leaving my part-time job at Hospital on Mobile",
+    title: "Left my part-time job at Hospital on Mobile",
     date: "January 2022",
     description: [
-      "My very amazing experience has come to an end."
-      +" I have left my part-time job at Hospital on Mobile to focues more on my current research project on Text-Guided Image Manipulation"]
+      " I left my part-time job at Hospital on Mobile to focus more on my current research project on Text-Guided Image Manipulation"]
   },
 ]
 export const experience = [
@@ -129,9 +128,9 @@ export const projects = [
     date: 'May 2020 - July 2021',
     relevantSkills : ["Research", "Python", "Deep learning", "Clustering algorithms", "self-supervised learning"],
     desc:
-    "During my research internship at the <a href='https://iui.ku.edu.tr'>IUI LAB</a>, I worked under the supervison of " +
-    "<a href='https://iui.ku.edu.tr/people/'>Prof. Metin Sezgin</a> on designed a self-supervised feedback system for sketch-based open-ended questions."
-    +"The work was based on <a href='https://arxiv.org/abs/2002.10381'>Sketchformer</a> for object-to-object alginment and a clusering-based approach for object-level segmentation."
+    "During my research internship at the <a href='https://iui.ku.edu.tr'>IUI LAB</a>, I worked under the supervision of " +
+    "<a href='https://iui.ku.edu.tr/people/'>Prof. Metin Sezgin</a> on designing a self-supervised feedback system for sketch-based open-ended questions."
+    +" The project is based on <a href='https://arxiv.org/abs/2002.10381'>Sketchformer</a> for object-to-object alignment and a clustering-based approach for object-level segmentation."
     + ' The shared video is a sample of transforming student answer (bottom-left corner) to the correct answer (upper-right corner)',
   },
 
@@ -142,8 +141,8 @@ export const projects = [
     date: 'May 2020 - March 2021',
     relevantSkills : ["Software Engineering", "Java", "Computer networking", "Docker"],
     desc:
-      'Opera is an offline simulator for distributed systems. Opera provides an integratable and easy-to-use interface for running, testing, and analysing distributed systems on various protocols such as TCP, JavaRMI, and UDP.'+
-      " The works was publish as a demo paper at <a href='https://ieeexplore.ieee.org/document/9484524'> IEEE INFOCOMP Conference</a>"
+      'Opera is an offline simulator for distributed systems. Opera provides an integrative and easy-to-use interface for running, testing, and analysing distributed systems on various protocols such as TCP, JavaRMI, and UDP.'+
+      " The work was publish as a demo paper at <a href='https://ieeexplore.ieee.org/document/9484524'> IEEE INFOCOMP Conference</a>"
   },
   
   {
@@ -153,8 +152,8 @@ export const projects = [
     date: 'Sep 2020 - Jan 2021',
     relevantSkills : ["Software Engineering", "Java", "Design patterns"],
     desc:
-      'As a part of Koc University Software engineering & desing course, I worked with a team of five students to develop an invader game.' +
-      'The project was meant to practice varios design patters such as Decorator, Controllor, Observor, and Visitor.' +
+      'As a part of Koc University Software engineering & design course, I worked with a team of five students to develop an invader game.' +
+      ' The project was meant to practice various design patters such as Decorator, Controller, Observor, and Visitor.' +
       'KuVid was awarded the best project of the year award'
   },
 
@@ -166,8 +165,8 @@ export const projects = [
     relevantSkills : ["Software Engineering", "Java", "Android Development"],
     center : true,
     desc:
-      'HuaweiQA is an android application that enables teachers to creat quizzes for students and track thier overall scores.'
-      + ' The application was meant to showcase using HMS Toolkit, and I received the first place in Huawei androind development competition.' 
+      'HuaweiQA is an android application that enables teachers to create quizzes for students and track their overall scores.'
+      + ' The application was meant to showcase using HMS Toolkit, and I received first place in Huawei Android Development Competition.' 
   },
 ];
 

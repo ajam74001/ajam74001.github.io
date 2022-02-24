@@ -4,12 +4,11 @@ import { Paper } from '@material-ui/core'
 import Social from './social'
 import DownloadButton from './downloadButton'
 import {profile_pic_url, resume_url, email_address, achievements, experience, indep_projects } from "../assets/config/text"
-import '../assets/css/aboutMeCard_module.scss'
 
 const AboutMeCard = () => {
   const emailTo = `mailto:${email_address}`
   return (
-    <Paper class="aboutMeWrapper">
+    <div class="aboutMeWrapper">
       <div class="aboutMePictureSection">
         <div class="aboutMePictureWrapper">
           <img alt="Moayed Profile Pic" src={profile_pic_url} class="aboutMePicture"/>
@@ -121,7 +120,7 @@ Structure & Algorithms, and Software Engineering Analysis and Design.</li>
           </div>
         </div>
       </div>
-    </Paper>
+    </div>
   )
 }
 
