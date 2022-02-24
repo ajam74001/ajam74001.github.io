@@ -1,0 +1,36 @@
+.timelineContainer {
+	margin-top: 4rem;
+
+}
+
+.timelineContainer:h3{
+	margin-top: 4rem;
+	color: $secondary-color;
+}
+
+
+.timelineContainer > div {
+	padding: 0;
+	padding-top: 12px;
+}
+
+@media screen and (min-width: 640px) {
+	.timelineContainer {
+		margin-top: 8rem;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	.timelineContainer {
+		margin-top: 8rem;
+	}
+}
+
+.timeline {
+  margin: 0;
+  padding: 0;
+}
+
+Timeline{
+	lineColor: rgb(218, 212, 212)
+}
