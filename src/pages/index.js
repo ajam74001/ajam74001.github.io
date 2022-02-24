@@ -20,6 +20,7 @@ class IndexPage extends React.Component {
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.article_names = ['work', 'about', 'contact']
   }
 
   componentDidMount () {
@@ -27,6 +28,8 @@ class IndexPage extends React.Component {
         this.setState({loading: ''});
     }, 100);
     document.addEventListener('mousedown', this.handleClickOutside);
+    console.log(window.location.hash)
+    this.article_names.map((name) => window.location.hash.substring(1) === name ? this.handleOpenArticle(window.location.hash.substring(1)) : '')
   }
 
   componentWillUnmount () {

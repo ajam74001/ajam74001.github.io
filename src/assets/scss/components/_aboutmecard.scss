@@ -18,8 +18,8 @@
 .aboutMePicture {
   border-radius: 50%;
   border: 1.4rem solid transparent;
-  width: 120%;
-  transform: translateY(20px);
+  width: 80%;
+  // transform: translateY(20px);
 }
 
 .aboutMeImage {
@@ -103,16 +103,39 @@
 	outline-offset: -2px;
 }
 
-@media screen and (min-width: 640px) {
+
+@media screen and (min-width: 128px) {
   .aboutMeWrapper {
     width: 80%;
     margin-top: 0;
   }
   
 	.aboutMePicture {
-		width: 12.8rem;
+		width: 10rem;
 	}
 }
+
+@media screen and (min-width: 480px) {
+  .aboutMeWrapper {
+    width: 80%;
+    margin-top: 0;
+  }
+  
+	.aboutMePicture {
+		width: 11rem;
+	}
+}
+@media screen and (min-width: 580px) {
+  .aboutMeWrapper {
+    width: 80%;
+    margin-top: 0;
+  }
+  
+	.aboutMePicture {
+		width: 12rem;
+	}
+}
+
 
 .aboutMePictureSection{ 
   width: 100%;
@@ -142,10 +165,4 @@ p.section_title{
 }
 .aboutMeInfoDescription ul{
   margin-bottom: 1rem;
-}
-
-@include breakpoint(small) {
-  > * {
-    width : 100%;
-  }
 }
