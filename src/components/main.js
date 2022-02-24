@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Page from "./page"
+import About from "./about"
+import Social from './social'
+import Projects from "./projects"
 
 
 class Main extends React.Component {
@@ -11,17 +14,21 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <Page page_name="work" article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}>
-            <h2 className="Work">About</h2>
-            <h2 >About Me</h2>
+            <div >
+                <h2 className="major">Projects</h2>
+            </div>
+            <Projects article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}/>
+            
         </Page>
         
-        <Page page_name="about" article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}>
-            <h2 className="major">About</h2>
-            <h2 >About Me</h2>
-        </Page>
+
+        <About article={this.props.article} articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}/>
 
         <Page page_name="contact" article={this.props.article}  articleTimeout={this.props.articleTimeout} onCloseArticle={this.props.onCloseArticle}>
             <h2 className="major">Contact</h2>
+            <p>
+              feel free to use the contact form, email me directly at <a href="mailto:mali18@ku.edu.tr">mali18@ku.edu.tr</a>
+            </p>
             <form method="post" action="#">
                 <div className="field half first">
                 <label htmlFor="name">Name</label>
@@ -40,12 +47,11 @@ class Main extends React.Component {
                 <li><input type="reset" value="Reset" /></li>
                 </ul>
             </form>
-            <p>Please reach out to Benjamin if you are interested in his work, either for paid or volunteer projects.</p>
-            <ul className="icons">
-                <li><a href="https://www.linkedin.com/in/benjamin-kleeman/" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
-                <li><a href="https://www.github.com/bkleeman" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
-            </ul>
+            <p> Please reach out if you have any research internship opportunities. You are also welcomed to reach out if you have any question or just want a simple chat.</p>
+            <Social/>
         </Page>
+
+        
 
       </div>
     )

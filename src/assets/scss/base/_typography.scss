@@ -64,7 +64,7 @@
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
-		letter-spacing: _font(letter-spacing);
+		letter-spacing: _font(letter-normal);
 
 		a {
 			color: inherit;
@@ -79,6 +79,7 @@
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 (_size(element-margin) * 1) 0;
+			font-size: 2.5rem;
 		}
 	}
 

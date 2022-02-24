@@ -1,11 +1,10 @@
 import React from "react"
 import Main from "../components/main"
-import style from "../assets/css/style.css" 
 import '../assets/scss/main.scss'
-import PropTypes from 'prop-types'
 import Layout from "antd/lib/layout/layout"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import TimeLine from "../components/mytimeline"
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -95,6 +94,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
+        <title>MoayedHajiAli</title>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
@@ -106,8 +106,12 @@ class IndexPage extends React.Component {
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
             />
+            
             <Footer timeout={this.state.timeout} />
-          </div>
+
+            
+          </div>   
+          
           <div id="bg"></div>
         </div>
       </Layout>
