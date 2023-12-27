@@ -19,8 +19,8 @@ const Header = (props) => (
         </nav>
         <div className="content">
             <div className="inner">
-                <h1>Moayed Haji Ali</h1>
-                <p>Machine learning engineer, Bachelor of Computer Science at Koc University (Class of 2023)</p>
+                <h1>Ainaz Jamshidi</h1>
+                <p>Machine learning engineer, PhD of Computer Science at UMBC </p>
             </div>
         </div>
         <a href='#timeline' class='transition_title' style={{}}>Recent Activities</a>

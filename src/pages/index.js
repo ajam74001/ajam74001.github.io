@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <title>MoayedHajiAli</title>
+        <title>Ainaz Jamshidi</title>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />

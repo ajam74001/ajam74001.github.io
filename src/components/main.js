@@ -28,7 +28,7 @@ class Main extends React.Component {
             <h2 className="major">Contact</h2>
             <p  style={{'line-hight':'1rem', 'margin-bottom':'0rem'}}> Do not hesitate to reach out if you have full-time positions, internship opportunities, or just want a simple chat.</p>
             <p style={{'margin-bottom':'2.5rem'}}>
-              Feel free to contact me via the form below or at <a href="mailto:mali18@ku.edu.tr">mali18@ku.edu.tr</a>
+              Feel free to contact me via the form below or at <a href="mailto:ainazj1@umbc.edu">ainazj1@umbc.edu</a>
             </p>
             <form target="transFrame" method="post" action='https://formspree.io/f/mgedkjno'>
                 <div className="field half first">

@@ -11,7 +11,7 @@ const AboutMeCard = () => {
     <div class="aboutMeWrapper">
       <div class="aboutMePictureSection">
         <div class="aboutMePictureWrapper">
-          <img alt="Moayed Profile Pic" src={profile_pic_url} class="aboutMePicture"/>
+          <img alt="Ainaz Profile Pic" src={profile_pic_url} class="aboutMePicture"/>
         </div>
         <div class="aboutMeImage"/>
         
@@ -25,21 +25,41 @@ const AboutMeCard = () => {
       <div class="aboutMeInfoSection">
         <div class="aboutMeInfo">
           <div class="aboutMeInfoName">
-            <h2 style={{margin: '0', padding: '0'}}>Moayed Haji Ali</h2>
+            <h2 style={{margin: '0', padding: '0'}}>Ainaz Jamshidi</h2>
             <a href={emailTo} class="aboutMeInfoNameSub">{email_address}</a>
           </div>
           <div class="aboutMeInfoDescription">
             <p class="title"> Education</p>
             <hr/>
-            <p style={{"text-align":"left", "float":'left'}}>Koc University</p>
-            <p style={{"text-align":"right",}}>Istanbul, Turkey</p>
-            <i style={{"text-align":"right", "clear":'both'}}>Bachelor in Computer Engineering</i>
+            <p style={{"text-align":"left", "float":'left'}}>University of Maryland Baltimore County</p>
+            <p style={{"text-align":"right",}}>Maryland, USA</p>
+            <i style={{"text-align":"right", "clear":'both'}}>PhD in Computer Science</i>
             <ul>
-              <li><b>CGPA: 3.97</b> out of <b>4.0</b> (Full merit-based scholarship from Al-Ghurair Foundation for Education).</li>
+              <li><b>GPA: 4.0</b> out of <b>4.0</b> (Full merit-based scholarship from Al-Ghurair Foundation for Education).</li>
               <li> <b>Relevant Coursework:</b> Advances in Deep Learning, Deep Unsupervised Learning, Deep Learning and Computer
 Vision, Introduction to Machine Learning, Natural Language Processing, Algorithms and Complexity, Data
 Structure & Algorithms, and Software Engineering Analysis and Design.</li>
               <li> <b>Work Experience:</b> Undergraduate TA in advanced programming in JAVA, and peer-to-peer programming tutor.</li>
+            </ul>
+            
+            <p style={{"text-align":"left", "float":'left'}}>Koc University</p>
+            <p style={{"text-align":"right",}}>Istanbul, Turkey</p>
+            <i style={{"text-align":"right", "clear":'both'}}>Masters in Computer Science</i>
+            <ul>
+              <li><b>GPA: 3.83</b> out of <b>4.0</b> (Full merit-based scholarship from KUSIS AI Lab ).</li>
+              <li> <b>Relevant Coursework:</b> Advances in Deep Learning, Deep Unsupervised Learning, Deep Learning and Computer
+Vision, Introduction to Machine Learning, Reinforcement learning, Algorithms and Complexity, Data
+Structure & Algorithms</li>
+              <li> <b>Work Experience:</b> TA in advanced programming in Python, Data Structure, Introduction to Artificial Intelligence, and peer-to-peer programming tutor.</li>
+            </ul>
+            
+            <p style={{"text-align":"left", "float":'left'}}>Amirkabir University of Technology</p>
+            <p style={{"text-align":"right",}}>Tehran, Iran</p>
+            <i style={{"text-align":"right", "clear":'both'}}>Bachelor in Electrical Engineering</i>
+            <ul>
+              <li><b>GPA: 3.80</b> out of <b>4.0</b> </li>
+              <li> <b>Relevant Coursework:</b> Signals & System, Bio signal processing, Adaptive signal processing, DSP.</li>
+              <li> <b>Work Experience:</b> Data Science internship at Atiyeh clinical neuroscience center.</li>
             </ul>
             
             <p class="title"> Achievements</p>
