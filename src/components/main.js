@@ -30,7 +30,7 @@ class Main extends React.Component {
             <p style={{'margin-bottom':'2.5rem'}}>
               Feel free to contact me via the form below or at <a href="mailto:ainazj1@umbc.edu">ainazj1@umbc.edu</a>
             </p>
-            <form target="transFrame" method="post" action='https://formspree.io/f/mgedkjno'>
+            <form target="transFrame" method="post" action='https://formspree.io/f/xeqyjbly'>
                 <div className="field half first">
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name" />
