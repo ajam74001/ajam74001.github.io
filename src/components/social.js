@@ -3,7 +3,7 @@ import React from 'react'
 const links = [
   {
     id: 'gmail',
-    href: 'ainazj1@umbc.edu',
+    href: 'mailto:ainazj1@umbc.edu',
     url: 'icons/gmail.svg'
   },
   {
